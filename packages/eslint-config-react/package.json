@@ -1,0 +1,16 @@
+{
+  "name": "@joyful/eslint-config-react",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint-config-react.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
