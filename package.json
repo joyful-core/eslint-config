@@ -13,9 +13,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@actions/exec": "^1.1.0",
     "@changesets/cli": "^2.20.0",
     "@joyful/eslint-config-common": "workspace:^1.0.0",
     "eslint": "^8.7.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "zx": "^4.3.0"
   }
 }

@@ -30,9 +30,9 @@ jobs:
       - name: create and publish versions
         uses: changesets/action@v1
         with:
-          version: pnpm ci:version
+          version: pnpm changset version
           commit: 'chore: update versions'
           title: 'chore: update versions'
-          publish: pnpm ci:publish
+          publish: node scripts/publish.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
