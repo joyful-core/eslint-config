@@ -4,7 +4,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "eslint基础配置",
   "keywords": [],
   "license": "ISC",
@@ -14,7 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "@joyful/eslint-config-typescript": "workspace:^1.0.0",
     "eslint": "^8.7.0",
     "prettier": "^2.5.1"
   },
@@ -32,7 +31,6 @@
     "yaml-eslint-parser": "^0.5.0"
   },
   "devDependencies": {
-    "@joyful/eslint-config-typescript": "workspace:^1.0.0",
     "eslint": "^8.7.0",
     "prettier": "^2.5.1"
   }
