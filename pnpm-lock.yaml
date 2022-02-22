@@ -52,6 +52,7 @@ importers:
 
   packages/eslint-config-typescript:
     specifiers:
+      '@joyful/eslint-config-common': workspace:^2.0.0
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: ^8.7.0
@@ -60,6 +61,7 @@ importers:
       prettier: ^2.5.1
       typescript: ^4.5.4
     dependencies:
+      '@joyful/eslint-config-common': link:../eslint-config-common
       '@typescript-eslint/eslint-plugin': 5.10.1_0f442f6b60390429061d5d9b6bcaaba6
       '@typescript-eslint/parser': 5.10.1_eslint@8.7.0+typescript@4.5.5
       eslint-config-prettier: 8.3.0_eslint@8.7.0
